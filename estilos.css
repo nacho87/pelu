@@ -1,0 +1,130 @@
+body
+{
+	background: #222;
+	color:#EEE;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+
+}
+header
+{
+	background: peru;
+	border-radius: 0.5em;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0 0.5em 0.5em;
+	text-align: left;
+	max-width: 100%;
+}
+header h1
+{
+	font-size: 2em;
+	margin: 0;
+}
+header h2
+{
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+#historia, #slider
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#historia
+{
+	background: rgba(0,0,0,0.6);
+	border-radius: 0.5em;
+	margin: 0 2% 1em 1em;
+	padding: 1em;
+	text-align: justify;
+	text-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
+	box-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
+	width: 40%;
+
+}
+#quienessomos, #mapa
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#mapa
+{
+	background: white;
+	max-width: 50%;
+	height: 480px
+}
+#quienessomos
+{
+	background: rgba(0,0,0,0.6);
+	border-radius: 0.5em;
+	margin: 0 2% 1em 1em;
+	padding: 1em;
+	text-align: justify;
+	text-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
+	box-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
+	width: 40%;
+
+}
+#quimioterapia
+{
+	background: rgba(0,0,0,0.6);
+	border-radius: 0.5em;
+	margin: 0 2% 1em 1em;
+	padding: 1em;
+	text-align: justify;
+	text-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
+	box-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
+	width: 40%;
+
+}
+
+#slider
+{
+	background: white;
+	width: 50%;
+}
+
+nav
+{
+	background: rgba(255,0,0,0.5);
+	width: 100%;
+	}
+
+nav ul 
+{
+	list-style: none;	
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a
+{
+	background: #d23d15;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	
+}
+nav ul li a:hover
+{
+	background: white;
+	color: black;
+	transform: scale(1.2) rotate(-5deg);
+	
+}
+
+footer
+{
+	background: peru;
+	margin: 3em 0 0 0;
+	width: 100%;
+}
