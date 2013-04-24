@@ -25,7 +25,7 @@
 			<p>Contamos con variadas muestras de colores y largos, pudiendo ofrecer el mejor precio y garantía de calidad.</p>
 			<p>Se realizan con implantes de distintos tipos: el tradicional y otro que se igual al cuero cabelludo y permite al cliente sentir que es su propio cabello.</p>
 		</article>
-		<div id="mapa">
+		<div id="grid">
 			<a>prueba</a>
 
 		</div>

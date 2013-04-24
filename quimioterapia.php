@@ -6,9 +6,18 @@
 
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="estilos.css">
-
-	<script src="prefixfree.min.js"></script>
-	<script src="jquery.js"></script>
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
 </head>
 <body>
 	
@@ -27,10 +36,13 @@
 			<p>Contamos con 50 años de experiencia logrando que cada cliente sea atendido con total dedicación.</p>
 
 		</article>
-		<div id="mapa">
-			<a>prueba</a>
+		
+		<figure id=quimio>
+			<img src="images/quimio.jpg" />
 
-		</div>
+
+		</figure>
+		
 	</section>
 	<footer>Graciela Ani | San Juan 1708 | Celular: 3814448001 Fijo: 0381 – 4332736 | San Miguel de Tucumán. Argentina.
 	</footer>

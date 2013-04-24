@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-
-	<script src="prefixfree.min.js"></script>
-	<script src="jquery.js"></script>
-	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
-    <script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+	
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    
     <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
@@ -43,13 +44,13 @@
 		
 		<div id="slider1" class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
-                <img src="images/slider1.jpg" data-thumb="images/slider1.jpg" alt="" />
-                <img src="images/slider2.jpg" data-thumb="images/slider2.jpg" alt="" />
-                <img src="images/slider3.jpg" data-thumb="images/slider3.jpg" alt="" />
-                <img src="images/slider4.jpg" data-thumb="images/slider4.jpg" alt="" />
-                <img src="images/slider5.jpg" data-thumb="images/slider5.jpg" alt="" />
-                <img src="images/slider6.jpg" data-thumb="images/slider6.jpg" alt="" />
-                <img src="images/slider7.jpg" data-thumb="images/slider7.jpg" alt="" />
+                <img src="images/slider1.jpg" data-thumb="images/slider1.jpg" alt="sli1" />
+                <img src="images/slider2.jpg" data-thumb="images/slider2.jpg" alt="sli2" />
+                <img src="images/slider3.jpg" data-thumb="images/slider3.jpg" alt="sli3" />
+                <img src="images/slider4.jpg" data-thumb="images/slider4.jpg" alt="sli4" />
+                <img src="images/slider5.jpg" data-thumb="images/slider5.jpg" alt="sli5" />
+                <img src="images/slider6.jpg" data-thumb="images/slider6.jpg" alt="sli6" />
+                <img src="images/slider7.jpg" data-thumb="images/slider7.jpg" alt="sli7" />
             </div>
         </div>
 	</section>

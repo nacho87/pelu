@@ -141,6 +141,14 @@ section{
 	width: 40%;
 
 }
+#quimio
+{
+	background: white;
+	
+}
+figure img{
+	border-radius: 0.5em;
+}
 #quimioterapia
 {
 	background: rgba(0,0,0,0.6);
@@ -151,12 +159,17 @@ section{
 	text-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
 	box-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
 	width: 40%;
+	
 
+}
+#quimioterapia, #quimio{
+	display: inline-block;
+	vertical-align: top;
 }
 
 #slider1
 {
-	
+	border-radius: 0.5em;
 	display: inline-block;
 	width: 55%;
 		
